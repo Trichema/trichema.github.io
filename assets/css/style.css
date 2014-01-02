@@ -1,0 +1,14 @@
+/*
+* Define Trichema font:
+* To use this font, use the following style rule:
+* `font-family: VAG-Rounded-Light;`
+*/
+@font-face
+{
+	font-family: VAG-Rounded-Light;
+	src: url(../font/vag-rounded-light.ttf);
+}
+
+.trichema {
+	font-family: VAG-Rounded-Light;
+}
