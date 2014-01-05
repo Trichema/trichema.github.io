@@ -6,7 +6,6 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <!-- TODO: Update Title -->
         <title>Trichema</title>
         <!-- TODO: Update meta description -->
         <meta name="description" content="">
@@ -25,18 +24,18 @@
         <div class="container">
 
             <header id="navtop">
-                <a href="index.php" class="logo fleft">
+                <a href="/" class="logo fleft">
                     <img src="img/logo.png" alt="Trichema">
                 </a>
 
                 <nav class="fright">
                     <ul>
                         <li><a href="/" class="navactive">Home</a></li>
-                        <li><a href="about.html">About</a></li> <!-- TODO: Change href to .php -->
+                        <li><a href="about.php">About</a></li>
                     </ul>
                     <ul>
-                        <li><a href="products.html">Products</a></li> <!-- TODO: Change href to .php -->
-                        <li><a href="contact.html">Contact</a></li> <!-- TODO: Change href to .php -->
+                        <li><a href="products.php">Products</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -45,7 +44,7 @@
                 <section class="grid-wrap" >
                     <header class="grid col-full">
                         <p class="fleft">Home</p>
-                        <a href="about.html" class="arrow fright">see more about Trichema</a>
+                        <a href="about.php" class="arrow fright">see more about Trichema</a>
                     </header>
 
                     <div class="grid col-full mq2-col-full aligncenter">
@@ -66,7 +65,7 @@
             <div class="divide-top">
                 <footer class="grid-wrap">
                     <ul class="grid col-one-third social">
-                        <li>&copy;<?php echo date("Y"); ?> <a href="" title="Trichema">Trichema</a></li>
+                        <li>&copy;<?php echo date("Y"); ?> <a href="/" title="Trichema">Trichema</a></li>
                         <li>Site powered by <a href="http://www.emerl.co.uk/" target="_blank" title="Site powered by eMerl">eMerl</a></li>
                     </ul>
 
@@ -77,9 +76,9 @@
                     <nav class="grid col-one-third ">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li><a href="about.html">About</a></li> <!-- TODO: Change href to .php -->
-                            <li><a href="products.html">Services</a></li> <!-- TODO: Change href to .php -->
-                            <li><a href="contact.html">Contact</a></li> <!-- TODO: Change href to .php -->
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="products.php">Services</a></li>
+                            <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </nav>
                 </footer>
@@ -91,14 +90,13 @@
         <script src="js/plugins.js"></script>
         <script src="js/scripts.js"></script>
 
-            <!-- TODO: Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-46856273-1');ga('send','pageview');
         </script>
     </body>
 </html>
