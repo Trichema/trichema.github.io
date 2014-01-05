@@ -631,3 +631,16 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
 	h2, h3{page-break-after:avoid;
     }
 }
+
+/*
+* Define Trichema font:
+*/
+@font-face
+{
+    font-family: VAG-Rounded-Light;
+    src: url(../font/vag-rounded-light.ttf);
+}
+
+.trichema {
+    font-family: VAG-Rounded-Light;
+}
