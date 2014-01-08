@@ -1,3 +1,8 @@
+<?php
+header('HTTP/1.1 503 Service Temporarily Unavailable');
+header('Status: 503 Service Temporarily Unavailable');
+header('Retry-After: 3600');
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
