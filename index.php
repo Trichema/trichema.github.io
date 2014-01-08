@@ -7,7 +7,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Trichema</title>
-        <!-- TODO: Update meta description -->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
@@ -28,37 +27,15 @@
                     <img src="img/logo.png" alt="Trichema">
                 </a>
 
-                <nav class="fright">
-                    <ul>
-                        <li><a href="/" class="navactive">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="products.php">Products</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </ul>
-                </nav>
             </header>
 
             <div class="home-page main">
                 <section class="grid-wrap" >
-                    <header class="grid col-full">
-                        <p class="fleft">Home</p>
-                        <a href="about.php" class="arrow fright">see more about Trichema</a>
-                    </header>
-
                     <div class="grid col-full mq2-col-full aligncenter">
-                        <img class="aligncenter" src="img/head1.jpg" alt="Trichema">
-                    </div>
-
-                    <div class="grid col-full mq2-col-full aligncenter">
-                        <h1>Chemicals</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.</p>
-                        <p>Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
-                    </div>
+                	<p>Our site is currently being upgraded.</p>
+                	<p>We hope to have our new site up and running as soon as possible.</p>
+                	<p>In the meantime, if you would like to get in touch, please email <a href="mailto:enquiries@trichema.co.uk">enquiries@trichema.co.uk</a>, or telephone <a href="tel://01925266036">01925 266036</a></p>    
+		    </div>
                 </section>
             </div>
 
@@ -70,16 +47,9 @@
                     </ul>
 
                     <div class="up grid col-one-third ">
-                        <a href="#navtop" title="Go to top of page">&uarr;</a>
                     </div>
 
                     <nav class="grid col-one-third ">
-                        <ul>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="products.php">Services</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
                     </nav>
                 </footer>
             </div> <!-- .divide-top -->
