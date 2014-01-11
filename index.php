@@ -7,14 +7,13 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Trichema</title>
-        <!-- TODO: Update meta description -->
-        <meta name="description" content="">
+        <meta name="description" content="Trichema chemical supplier covering the North West">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
         <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' type='text/css'>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -25,7 +24,7 @@
 
             <header id="navtop">
                 <a href="/" class="logo fleft">
-                    <img src="img/logo.png" alt="Trichema">
+                    <img src="assets/img/logo.png" alt="Trichema">
                 </a>
 
                 <nav class="fright">
@@ -48,7 +47,7 @@
                     </header>
 
                     <div class="grid col-full mq2-col-full aligncenter">
-                        <img class="aligncenter" src="img/head1.jpg" alt="Trichema">
+                        <img class="aligncenter" src="assets/img/head1.jpg" alt="Trichema">
                     </div>
 
                     <div class="grid col-full mq2-col-full aligncenter">
@@ -86,9 +85,9 @@
         </div> <!-- .container -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/scripts.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/scripts.js"></script>
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
