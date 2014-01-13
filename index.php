@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Trichema</title>
-        <meta name="description" content="Trichema chemical supplier covering the North West">
+        <title>Trichema | Chemical distribution</title>
+        <meta name="description" content="Trichema: Chemical distribution covering the UK">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
@@ -41,22 +41,16 @@
 
             <div class="home-page main">
                 <section class="grid-wrap" >
-                    <header class="grid col-full">
-                        <p class="fleft">Home</p>
-                        <a href="about.php" class="arrow fright">see more about Trichema</a>
-                    </header>
 
                     <div class="grid col-full mq2-col-full aligncenter">
                         <img class="aligncenter" src="assets/img/head1.jpg" alt="Trichema">
                     </div>
 
                     <div class="grid col-full mq2-col-full aligncenter">
-                        <h1>Chemicals</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.</p>
-                        <p>Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
-                        <p>Nunquam captis aonides.A falsis, guttus camerarius nix.Fluctuss cantare, tanquam festus musa.Lixas messis in emeritis cubiculum!Quadra germanus species est.Adelphiss persuadere!Est alter compater, cesaris.</p>
+                        <h1>Welcome to Trichema</h1>
+                        <p>The Cheshire based chemical distributor Trichema have been in the chemical industry, for over 12 years. With chemical distribution being the core part of our company we have established an excellent reputation in the UK with a diverse range of clients.</p>
+                        <p>Trichema primarily distribute <a href="https://www.avantormaterials.com">Avantor</a> laboratory chemicals to our client base in the North West of the UK and also provide to clients across the UK, such as the <a href="http://imperial.ac.uk">Imperial College London</a>.</p>
+                        <p>We aim to provide our clients with low prices, short lead times and excellent customer service and support. Please take a look at our <a href="about.php">about page</a> to learn more about Trichema and the products that we supply and to learn how we can help you.</p>
                     </div>
                 </section>
             </div>
@@ -76,7 +70,7 @@
                         <ul>
                             <li><a href="/">Home</a></li>
                             <li><a href="about.php">About</a></li>
-                            <li><a href="products.php">Services</a></li>
+                            <li><a href="products.php">Products</a></li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </nav>

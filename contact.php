@@ -43,18 +43,12 @@
             </ul>
             <ul>
                 <li><a href="products.php">Products</a></li>
-                <li><a href="contact.html" class="navactive">Contact</a></li>
+                <li><a href="contact.php" class="navactive">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="contact-page main grid-wrap">
-
-        <header class="grid col-full">
-            <p class="fleft">Contact</p>
-        </header>
-
-
 
         <aside class="grid col-one-quarter mq2-col-one-third mq3-col-full">
 
@@ -126,7 +120,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="products.php">Services</a></li>
+                    <li><a href="products.php">Products</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>

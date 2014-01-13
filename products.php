@@ -43,7 +43,7 @@
                 <li><a href="about.php">About</a></li>
             </ul>
             <ul>
-                <li><a href="products.html" class="navactive">Products</a></li>
+                <li><a href="products.php" class="navactive">Products</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
@@ -51,17 +51,12 @@
 
     <div class="about-page main grid-wrap">
 
-        <header class="grid col-full">
-            <p class="fleft">Products</p>
-        </header>
-
         <section class="grid col-full">
-            <img src="assets/img/head4.jpg" alt="" class="aligncenter">
-
+            <img src="assets/img/head7.jpg" alt="" class="aligncenter">
                 <h2>Our products</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.</p>
-                <p>Please take a look at our product catalogue by clicking the button below:</p>
-                <a href="http://www.avantormaterials.com/search.aspx?searchtype=products" target="_blank" class="button">Click here</a>
+                <p>Trichema distribute the full <a href="https://www.avantormaterials.com">Avantor</a> product portfolio. Whether it be one item that you require or 10,000+, Trichema are more than happy to help.</p>
+
+		<p>Please take a look at the product catalogue by clicking <a href="http://www.avantormaterials.com/search.aspx?searchtype=products" target="_blank">here</a>.</p>
         </section>
 
     </div>
@@ -81,7 +76,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="products.php">Services</a></li>
+                    <li><a href="products.php">Products</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
