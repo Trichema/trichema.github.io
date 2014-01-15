@@ -77,7 +77,6 @@
                 <p>Over the years, Trichema has accumulated a diverse client base. We distribute chemicals from <a href="https://www.avantormaterials.com">Avantor</a> directly to clients such as <a href="http://imperial.ac.uk">Imperial College London</a>, <a href="http://www.bachem.com">Bachem</a> and <a href="http://www.veolia.co.uk">Veolia Environment</a>, to name but a few.</p>
                 <p>As well as distributing large orders to such clients, we also look after many smaller firms, who may require just one two items per order - no order is too small.</p>
                 <p><i>References from current clients are available on request, should you require.</i></p>
-                <!-- TODO: Insert client logos -->
             </article>
 
             <article id="navtarget">
