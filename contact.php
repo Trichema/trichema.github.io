@@ -78,31 +78,75 @@
         </aside>
 
         <section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
-            <h2>Get in touch</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit.</p>
+            <!--                                                                                             -->
+            <?php
+            if (isset($_POST['submit'])) {
+                require_once('includes/recaptchalib.inc.php');
+                $privatekey = "6LfvE-0SAAAAAG1bpKR7N12Q4p4mFnJ9GaNuRmYV";
+                $resp = recaptcha_check_answer ($privatekey,
+                    $_SERVER["REMOTE_ADDR"],
+                    $_POST["recaptcha_challenge_field"],
+                    $_POST["recaptcha_response_field"]);
 
-            <h3>Send us a message:</h3>
+                if (!$resp->is_valid) {
+                    // CAPTCHA was entered incorrectly
+                    echo "<h2>Sorry, the reCAPTCHA verification code wasn't entered correctly.</h2>";
+                    echo "<p>Please go back and answer the security question at the bottom of the form again.</p>";
+                    echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
+                } else {
+                    // CAPTCHA was entered correctly - send email
+                    $headers = "From: no-reply@trichema.co.uk\r\n" . "X-Mailer: php";
+                    $to = "sales@trichema.co.uk";
+                    $subject = "You have a new Trichema website enquiry!";
+                    unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['submit']); // unset() some keys in the array that we don't want.
+                    foreach ($_REQUEST as $key => $val) {
+                        $body .= ucfirst($key) . ": " . $val . "\r\n"; // ucfirst() the keys to make the first letter capital.
+                    }
+                    mail($to, $subject, $body, $headers); //send the mail
+                    echo "<h2>Thank you, your message has been sent.</h2>";
+                    echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
+                    echo "<p><a href='/'>Click here to go back to the home page.</a></p>";
+                }
 
-            <form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">
-                <ul>
-                    <li>
-                        <label for="name">Your name:</label>
-                        <input type="text" name="name" id="name" placeholder="Please enter your name here..." required class="required" >
-                    </li>
-                    <li>
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" required placeholder="Please enter your email address here..." class="required email">
-                    </li>
-                    <li>
-                        <label for="message">Message:</label>
-                        <textarea name="message" id="message" cols="100" rows="6" required  class="required" placeholder="Please enter your message here...."></textarea>
-                    </li>
-                    <li>
-                        <button type="submit" id="submit" name="submit" class="button fright">Send Message</button>
-                    </li>
-                </ul>
-            </form>
+            } else {
+                ?>
+                <script type="text/javascript">
+                    // Set the reCAPTCHA theme
+                    var RecaptchaOptions = {
+                        theme : 'white'
+                    };
+                </script>
+                <h3>Send us a message:</h3>
+                <form id="contact_form" class="contact_form" action="contact.php" method="post" name="contact_form">
+                    <?php
+                    require_once('includes/recaptchalib.inc.php');
+                    $publickey = "6LfvE-0SAAAAAPph6WG_33boWj4tOyYkQNrU6YNg";
+                    ?>
+                    <ul>
+                        <li>
+                            <label for="name">Your name:</label>
+                            <input type="text" name="name" id="name" placeholder="Please enter your name here..." required class="required" >
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required placeholder="Please enter your email address here..." class="required email">
+                        </li>
+                        <li>
+                            <label for="message">Message:</label>
+                            <textarea name="message" id="message" cols="100" rows="6" required  class="required" placeholder="Please enter your message here...."></textarea>
+                        </li>
+                        <li>
+                            <label for="message">Verification:</label>
+                            <?php echo recaptcha_get_html($publickey); ?>
+                        </li>
+                        <li>
+                            <button type="submit" id="submit" name="submit" class="button fright">Send Message</button>
+                        </li>
+                    </ul>
+                </form>
         </section>
+            <?php } ?>
+            <!--                                                                                             -->
 
     </div> <!--main-->
     <div class="divide-top">
