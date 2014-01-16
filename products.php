@@ -52,7 +52,7 @@
     <div class="about-page main grid-wrap">
 
         <section class="grid col-full">
-            <img src="assets/img/head7.jpg" alt="" class="aligncenter">
+            <img src="assets/img/head2.jpg" alt="" class="aligncenter">
                 <h2>Our products</h2>
                 <p>Trichema distribute the full <a href="https://www.avantormaterials.com">Avantor</a> product portfolio. Whether it be one item that you require or 10,000+, Trichema are more than happy to help.</p>
 
