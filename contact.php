@@ -78,7 +78,6 @@
         </aside>
 
         <section class="grid col-three-quarters mq2-col-two-thirds mq3-col-full">
-            <!--                                                                                             -->
             <?php
             if (isset($_POST['submit'])) {
                 require_once('includes/recaptchalib.inc.php');
@@ -146,8 +145,6 @@
                 </form>
         </section>
             <?php } ?>
-            <!--                                                                                             -->
-
     </div> <!--main-->
     <div class="divide-top">
         <footer class="grid-wrap">
