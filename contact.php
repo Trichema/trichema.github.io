@@ -94,14 +94,17 @@
                     echo "<a href='javascript:history.go(-1)'>Click here to try again.</a>";
                 } else {
                     // CAPTCHA was entered correctly - send email
-                    $headers = "From: no-reply@trichema.co.uk\r\n" . "X-Mailer: php";
                     $to = "sales@trichema.co.uk";
+                    $from = "no-reply@trichema.co.uk";
                     $subject = "You have a new Trichema website enquiry!";
+                    $headers = "From: $from" . "\r\n" .
+                        "Reply-To: $from" . "\r\n" .
+                        "X-Mailer: php";
                     unset($_REQUEST['recaptcha_challenge_field'], $_REQUEST['recaptcha_response_field'], $_REQUEST['submit']); // unset() some keys in the array that we don't want.
                     foreach ($_REQUEST as $key => $val) {
                         $body .= ucfirst($key) . ": " . $val . "\r\n"; // ucfirst() the keys to make the first letter capital.
                     }
-                    mail($to, $subject, $body, $headers); //send the mail
+                    mail($to, $subject, $body, $headers, "-f" . $from); //send the mail
                     echo "<h2>Thank you, your message has been sent.</h2>";
                     echo "<p>A member of our sales team will be in touch with you as soon as possible.</p>";
                     echo "<p><a href='/'>Click here to go back to the home page.</a></p>";
