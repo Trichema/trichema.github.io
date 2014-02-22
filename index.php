@@ -40,7 +40,7 @@ header('Retry-After: 3600');
                     <div class="grid col-full mq2-col-full aligncenter">
                 	<p>Our site is currently being upgraded.</p>
                 	<p>We hope to have our new site up and running as soon as possible.</p>
-                	<p>In the meantime, if you would like to get in touch, please email <a href="mailto:enquiries@trichema.co.uk">enquiries@trichema.co.uk</a>, or telephone <a href="tel://01925266036">01925 266036</a></p>    
+                	<p>In the meantime, if you would like to get in touch, please email <a href="mailto:enquiries@trichema.co.uk">enquiries@trichema.co.uk</a>, or telephone <a href="tel://01925266036">01925 266036</a></p>
 		    </div>
                 </section>
             </div>
@@ -49,7 +49,6 @@ header('Retry-After: 3600');
                 <footer class="grid-wrap">
                     <ul class="grid col-one-third social">
                         <li>&copy;<?php echo date("Y"); ?> <a href="/" title="Trichema">Trichema</a></li>
-                        <li>Site powered by <a href="http://www.emerl.co.uk/" target="_blank" title="Site powered by eMerl">eMerl</a></li>
                     </ul>
 
                     <div class="up grid col-one-third ">
