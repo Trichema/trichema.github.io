@@ -59,7 +59,6 @@
                 <footer class="grid-wrap">
                     <ul class="grid col-one-third social">
                         <li>&copy;<?php echo date("Y"); ?> <a href="/" title="Trichema">Trichema</a></li>
-                        <li>Site powered by <a href="http://www.emerl.co.uk/" target="_blank" title="Site powered by eMerl">eMerl</a></li>
                     </ul>
 
                     <div class="up grid col-one-third ">
