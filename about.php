@@ -23,6 +23,18 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' type='text/css'>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-touch-icon-76x76.png">
+    <link rel="icon" type="image/png" href="/assets/img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/assets/img/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-square70x70logo" content="/assets/img/mstile-70x70.png">
+    <meta name="msapplication-square150x150logo" content="/assets/img/mstile-150x150.png">
+    <meta name="msapplication-wide310x150logo" content="/assets/img/mstile-310x150.png">
     <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
