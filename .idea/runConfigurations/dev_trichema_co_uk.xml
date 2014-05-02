@@ -1,7 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="dev.trichema.co.uk" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="dev.trichema.co.uk">
-    <RunnerSettings RunnerId="PhpRunner" />
-    <ConfigurationWrapper RunnerId="PhpRunner" />
-    <method />
-  </configuration>
-</component>
