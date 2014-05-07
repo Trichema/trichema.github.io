@@ -117,7 +117,7 @@ input, select, textarea {
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-	*behavior: url(/js/boxsizing.htc); }
+	*behavior: url(/assets/js/boxsizing.htc); }
 textarea{padding: 1em; min-height:15em; height: auto; width: 100%; }
 input, textarea {
  -moz-transition: border .25s;
@@ -235,7 +235,7 @@ body{width:100%; background: url(../img/stripes.png) no-repeat 40% 0;}
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  *behavior: url(/js/boxsizing.htc); }
+  *behavior: url(/assets/js/boxsizing.htc); }
   
 .half-gutter {margin-left: -1.5em; }
   .half-gutter .grid-col {padding-left: 1.5em; }
