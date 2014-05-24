@@ -108,7 +108,7 @@
                     // CAPTCHA was entered correctly - send email
                     $to = "sales@trichema.co.uk";
                     $from = "no-reply@trichema.co.uk";
-                    $subject = "You have a new Trichema website enquiry!";
+                    $subject = "Trichema website enquiry";
                     $headers = "From: $from" . "\r\n" .
                         "Reply-To: $from" . "\r\n" .
                         "X-Mailer: php";
