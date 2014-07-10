@@ -1,4 +1,4 @@
-trichema.co.uk
-==============
+trichema.github.io
+==================
 
 Trichema's website.
