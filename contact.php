@@ -51,7 +51,7 @@
         <nav class="fright">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="about.php">About</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
             <ul>
                 <li><a href="products.php">Products</a></li>
@@ -175,7 +175,7 @@
             <nav class="grid col-one-third ">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="about.php">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="products.php">Products</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
