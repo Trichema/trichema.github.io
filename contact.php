@@ -54,7 +54,7 @@
                 <li><a href="about.html">About</a></li>
             </ul>
             <ul>
-                <li><a href="products.php">Products</a></li>
+                <li><a href="products.html">Products</a></li>
                 <li><a href="contact.php" class="navactive">Contact</a></li>
             </ul>
         </nav>
@@ -176,7 +176,7 @@
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="products.php">Products</a></li>
+                    <li><a href="products.html">Products</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </nav>
