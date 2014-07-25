@@ -1,9 +1,6 @@
 /**
  * Project: trichema.co.uk
- * File:
- * User: joenyland
- * Date: 10/07/2014
- * Time: 11:50
+ * File: main.js
  */
 
 function getYear() {
