@@ -632,9 +632,7 @@ ul.page-numbers{float: right;overflow:hidden; display:block;}
     }
 }
 
-/*
-* Define Trichema font:
-*/
+/* Trichema font */
 @font-face
 {
     font-family: VAG-Rounded-Light;
