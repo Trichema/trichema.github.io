@@ -1,6 +1,6 @@
 trichema.github.io
 ==================
 
-Trichema's website.
+> Note: Trichema has now ceased trading.
 
-### WARNING: This site is for archive purposes only. Trichema has now ceased trading.
+Trichema's website.
