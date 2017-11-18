@@ -1,5 +1,5 @@
-trichema.github.io
-==================
+trichema
+========
 
 > Note: Trichema has now ceased trading.
 
